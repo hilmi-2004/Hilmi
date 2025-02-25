@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+}
+
+.navbar ul {
+  display: flex;
+  gap: 20px;
+  font-weight: 700;
+}
+
+.fullheader {
+  box-shadow: 1px 5px 3px 0px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 1px 5px 5px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 1px 5px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+@poppins: url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
